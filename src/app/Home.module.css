@@ -1,0 +1,55 @@
+/* src/app/Home.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.tab {
+  margin: 0 15px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.tab:hover {
+  background-color: #e0e0e0;
+}
+
+.canvas {
+  flex: 1;
+  position: relative;
+}
+
+/* Home.module.css */
+
+.tooltip {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  pointer-events: none;
+  white-space: nowrap;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.activeTab {
+  border-bottom: 2px solid #0070f3;
+  font-weight: bold;
+}
